@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import DegitalClock from "./pages/DegitalClock";
+import DegitalClock from "./app/DegitalClock";
 
 function App() {
   return (
