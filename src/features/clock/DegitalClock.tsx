@@ -1,5 +1,5 @@
-import useServerTime from "../hooks/useServerTime";
-import { formatDate } from "../utils/formatTime";
+import useServerTime from "../../hooks/useServerTime";
+import { formatDate } from "../../utils/formatTime";
 
 const DegitalClock = () => {
   const myTime = useServerTime() ?? new Date();
